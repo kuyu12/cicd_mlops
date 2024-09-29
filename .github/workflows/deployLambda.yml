@@ -2,7 +2,8 @@ name: deploy Lambda
 
 on:
   push:
-    - "src/**"
+    paths:
+      - "src/**"
     branches: [ main ]
 
 jobs:
